@@ -1,0 +1,27 @@
+{
+  "name": "youtube-playlist-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "horizon-youtube-mp3": "^1.9.1",
+    "js-video-url-parser": "^0.3.1",
+    "jssoup": "0.0.10",
+    "loadash": "^1.0.0",
+    "node-fetch": "^2.3.0",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "ytdl": "^0.11.1",
+    "ytdl-core": "^1.0.6"
+  }
+}
